@@ -1,121 +1,85 @@
 <p align="center">
-  <a href="https://t3.codes">
-    <img src="./assets/prod/t3-black-web-icon-192x192.png" width="80" height="80" alt="T3 Code logo" />
-  </a>
+  <img src="./assets/temu/temu3-logo.svg" width="112" height="112" alt="Temu3 Code logo" />
 </p>
 
-<h1 align="center">T3 Code</h1>
-
-<p align="center">The open-source control plane for coding agents.</p>
+<h1 align="center">Temu3 Code</h1>
 
 <p align="center">
-  <a href="https://t3.codes/download"><strong>Download</strong></a> ·
-  <a href="https://apps.apple.com/us/app/t3-code-remote-claude-more/id6787819824">iOS</a> ·
-  <a href="https://play.google.com/store/apps/details?id=com.t3tools.t3code">Android</a> ·
-  <a href="https://app.t3.codes">Web</a> ·
-  <a href="./docs/README.md">Docs</a> ·
-  <a href="https://discord.gg/jn4EGJjrvv">Discord</a>
+  <strong>Shop like a billionaire. Ship like a 10x dev.</strong><br />
+  The factory-direct, open-source <strong>ADE (Agentic Development Environment)</strong> at <strong>99.97% OFF*</strong>.
 </p>
 
 <p align="center">
-  <a href="https://t3.codes">
-    <img src="./.github/readme/hero.webp" width="100%" alt="T3 Code on desktop with a finished Claude thread, next to the phone app asking to approve a command from Codex" />
-  </a>
+  <code>⚡ LIGHTNING DEAL ENDS IN 00:09:59 · FREE SHIPPING ON GIT WORKTREES · ONLY 2 CONTEXT WINDOWS LEFT IN STOCK ⚡</code>
 </p>
 
-T3 Code runs the coding agents on your machine and gives them one fast interface. Start a thread at your desk, then approve the next step from your phone.
+---
 
-It works with Claude Code, Codex, Cursor, OpenCode, Grok Build, Antigravity, Kiro, Pi, Muse Code, fx, and any [ACP](./docs/user/providers-acp.md) agent. If an agent is set up on your computer, T3 Code can control it.
+> **Parody Notice:** **Temu3 Code** is an unofficial meme fork created purely as a joke and is **not** shipped, endorsed by, or affiliated with T3 Tools, Inc. or Temu. No actual $100 token coupons exist, no coworkers need to be invited to unlock `git push`, and your API bill is still very real.
 
-## What you get
+---
 
-- **Your subscriptions.** T3 Code does not resell tokens. It drives the agents you are already signed in to.
-- **Every agent in one place.** Change models in the middle of a thread. Let Claude hand a task to Codex.
-- **Desktop, web, and phone.** One server, and every client shows the same threads. There are apps for iOS and Android.
-- **Remote ready.** Run agents on any machine. Connect over your local network, Tailscale, or [T3 Connect](./docs/user/remote-access.md).
-- **Git built in.** Each thread can work in its own worktree. Review the diff, then commit, push, and open a pull request with one button.
-- **Fast.** Performance is a feature here. We measure it, and we treat a dropped frame as a bug.
-- **Open.** Source code is MIT licensed. If you don't like something, fork it under your own branding (see [Trademarks and forks](#trademarks-and-forks)).
+**Temu3 Code** is an Agentic Development Environment (ADE) that runs the coding agents on your machine and wraps them in one suspiciously fast, aggressively orange marketplace interface. Add a feature request to your cart at your desk, then impulse-approve the next bash command from your phone at 2:14 AM like a $1.49 USB-powered noodle fan.
 
-## Install
+It works out of the box with **Claude Code**, **Codex**, **Cursor**, **OpenCode**, **Grok Build**, **Antigravity**, **Kiro**, **Pi**, **Muse Code**, **fx**, and any [ACP](./docs/user/providers-acp.md) agent. If an agent is installed on your computer, Temu3 Code will slap a **FLASH DEAL** sticker on it and put it to work.
 
-### Desktop app
+## What's in Your Cart (ADE Features)
 
-[Download T3 Code](https://t3.codes/download) for macOS, Windows, or Linux. You can also use a package manager:
+- **Factory-Direct Subscriptions ($0.00 Markup, $100.00 Fake Coupons):** Temu3 Code does not resell tokens. It drives the agents you are already signed in to — _plus_ you can click **Claim $100 Coupon** in the sidebar as many times as you want for a free burst of orange confetti and $0.00 in savings.
+- **Spin the Model Wheel Mid-Thread:** Start an architectural refactor with Claude, hit a lightning deal, and hand the exact same thread to Codex for final checkout.
+- **Impulse-Approve From Anywhere (Desktop, Web & Phone):** One local server, every screen synced. Start a build on your desktop, review diffs on the web, and approve tool calls from the couch.
+- **FREE Express Shipping on Git Worktrees:** Every thread gets its own isolated git worktree shipped straight from the factory floor. Inspect the diff, commit, push, and open a pull request with one glorious orange button.
+- **Built-In Temu Marketplace Theme (Light & Dark):** Ships pre-dressed in authentic **Temu Tangerine (`#FB7701`)**, **Coupon Wheel Gold (`#FFD100`)**, and **Flash-Sale Crimson (`#E5191F`)** — including both the default **Temu3 Code** theme and the extra-spicy **Temu Flash Sale** preset in **Settings → Appearance**.
+- **Remote Ready:** Run agents on any machine over your local network, Tailscale, or tunnel — no customs duties required.
+- **Suspiciously Fast:** Even as a joke fork, performance is still taken seriously. No GPU-melting infinite animations, just crisp sub-millisecond impulse shipping.
 
-| Platform       | Command                                                              |
-| -------------- | -------------------------------------------------------------------- |
-| macOS          | `brew install --cask t3-code`                                        |
-| Windows        | `winget install T3Tools.T3Code` or `scoop install extras/t3code`     |
-| Arch Linux     | `yay -S t3code-bin`                                                  |
-| Nix            | `nix profile add github:NixOS/nixpkgs/nixos-unstable#t3code`         |
-| Debian, Ubuntu | `.deb` from [Releases](https://github.com/pingdotgg/t3code/releases) |
+## Verified Buyer Reviews (4.98 / 5 ⭐ — 100,000+ Sold*)
 
-### Command line
+| Rating     | Verified Developer       | Review                                                                                                                                                                              |
+| ---------- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ⭐⭐⭐⭐⭐ | `10x_bargain_hunter`     | _"Ordered a 3-line CSS tweak during a flash sale. Arrived in 14 seconds as a full TypeScript refactor with unit tests. Packaging was extremely orange. Would impulse-merge again."_ |
+| ⭐⭐⭐⭐⭐ | `cart_full_of_worktrees` | _"Spun the sidebar coupon wheel 6 times and unlocked FREE Express Shipping on Git Worktrees. Still paid my own API bill, somehow still felt like a billionaire."_                   |
+| ⭐⭐⭐⭐☆  | `async_checkout_enjoyer` | _"Approved a migration from my phone at 1:47 AM while buying a miniature rice cooker. Both arrived before standup."_                                                                |
 
-This installs the `t3` command. Run `t3` to start the server and open the web app.
+<sub>*0 actually sold. This is a meme branch.</sub>
+
+## Demo Recording & Screenshots
+
+> Watch the live 1440×810 recording of **Temu3 Code** running end-to-end (claiming the `$100` coupon with confetti, toggling **Temu Flash Sale** Light & Dark themes in Settings, and running a live streaming agent turn with tool calls & tests): [`docs/demo/temu3-code-demo.mp4`](./docs/demo/temu3-code-demo.mp4).
+
+<p align="center">
+  <img src="./docs/demo/temu3-code-light.png" width="49%" alt="Temu3 Code in Temu Marketplace Light Mode with Flash Deal coupon card" />
+  <img src="./docs/demo/temu3-code-dark.png" width="49%" alt="Temu3 Code in Temu Flash Sale Dark Mode with live agent output and confetti" />
+</p>
+<p align="center">
+  <img src="./docs/demo/temu3-code-themes.png" width="75%" alt="Temu3 Code Appearance settings showing Temu3 Code and Temu Flash Sale themes" />
+</p>
+
+## Build & Run From Source
+
+Temu3 Code is built with [Vite+](https://viteplus.dev/guide/) (`vp`) and pnpm:
 
 ```bash
-curl -fsSL https://t3.codes/install.sh | sh
+# Install workspace dependencies
+vp i
+
+# Build server, web, desktop, and marketing apps
+vp run build
+
+# Start the local dev server + Temu3 Code web UI (uses isolated dev state)
+vp run dev
 ```
 
-On Windows, in PowerShell:
+Open the pairing URL printed by the dev runner to enter the **Temu3 Code** marketplace. You can test streaming agent turns for free using the built-in `Replay (dev)` provider without spending a single real token.
 
-```powershell
-irm https://t3.codes/install.ps1 | iex
-```
+## "Wait, what are you actually selling me?"
 
-To try it once without an install, run `npx t3@latest`.
+Literally nothing. Not even a silicone avocado slicer.
 
-### Phone
+We forked an open-source ADE, painted it bright Temu orange, renamed every single reference to **Temu3 Code**, bolted a confetti-shooting fake coupon button into the sidebar, and verified the whole thing builds and runs end-to-end — purely for the bit.
 
-Get the app from the [App Store](https://apps.apple.com/us/app/t3-code-remote-claude-more/id6787819824) or [Google Play](https://play.google.com/store/apps/details?id=com.t3tools.t3code). Then follow [remote access](./docs/user/remote-access.md) to connect it to your computer.
+## License & Trademarks
 
-### Sign in to an agent
+The underlying source code in this repository is licensed under the [MIT License](./LICENSE).
 
-T3 Code needs one agent that is installed and signed in. For example, install [Claude Code](https://claude.com/product/claude-code) and run `claude auth login`, or install [Codex CLI](https://developers.openai.com/codex/cli) and run `codex login`.
-
-[Provider setup](./docs/user/install.md#providers) has the steps for each agent. [Install T3 Code](./docs/user/install.md) covers nightly builds, AppImage, WSL, and NixOS.
-
-## "Wait, what are you selling me?"
-
-Nothing. We built T3 Code because we wanted the best possible development experience with agents. We were inspired by existing solutions like the Codex desktop app, Conductor, Claude Desktop and Cursor Glass, but none met our bar.
-
-We wanted something performant, remote-ready, and truly open. If we ever go the wrong direction, we want you to have everything you need to fork the source code and build the tool that you want, under your own name and branding.
-
-## Documentation
-
-- [Install and first run](./docs/user/install.md)
-- [Remote access from a phone or another machine](./docs/user/remote-access.md)
-- [Permission modes](./docs/user/permission-modes.md)
-- [Source control](./docs/user/source-control.md)
-- [Connect outside agents over MCP](./docs/user/outside-agents.md)
-- [FAQ](./docs/user/faq.md)
-
-[All docs](./docs/README.md) has the full list.
-
-## Contributing
-
-We have limited review capacity. Small, focused fixes are the most likely to be merged. Features need an approved discussion first.
-
-- Read [CONTRIBUTING.md](./CONTRIBUTING.md) before you report a bug or open a pull request.
-- Put feature requests in [Ideas](https://github.com/pingdotgg/t3code/discussions/categories/ideas).
-- Build from source with the [development runbook](./docs/operations/00_development.md#first-checkout). The [architecture overview](./docs/internals/01_architecture.md) explains how it works.
-- Get help in [Discord](https://discord.gg/jn4EGJjrvv).
-
-## License
-
-The source code in this repository is licensed under the [MIT License](./LICENSE).
-
-## Trademarks and forks
-
-The MIT license applies **only to the source code**. It does not grant any rights to T3 Tools, Inc.'s trademarks, branding, or trade dress, including the **T3 Code** name, wordmark, logos, and application icons.
-
-If you fork, redistribute, or build on T3 Code's source code:
-
-- **Use your own branding.** Replace the T3 Code name, wordmark, logos, and application icons in any public fork, redistributed build, website, package, or app store listing.
-- **Be explicitly clear that your project is unofficial.** Do not use the T3 Code name, wordmark, logo, or branding in your own projects without making it unmistakably clear that your project is unofficial and not affiliated with or endorsed by T3 Tools, Inc.
-
-Using our name, wordmark, logo, or branding in a way that suggests official status or affiliation is trademark infringement and unlawful. **Any project indicating or implying that it is an official version of T3 Code when it is not will be pursued to the full extent of the law.**
-
-See [TRADEMARK.md](./TRADEMARK.md) for the full trademark and branding policy.
+**Temu3 Code** is an unofficial parody fork created solely as a meme. It is not affiliated with, sponsored by, or endorsed by T3 Tools, Inc. or PDD Holdings / Temu. See [TRADEMARK.md](./TRADEMARK.md) for the upstream trademark policy.

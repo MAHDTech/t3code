@@ -12,8 +12,8 @@
     <link rel="manifest" href="/manifest.webmanifest" />
     <script>
       (() => {
-        const LIGHT_BACKGROUND = "#ffffff";
-        const DARK_BACKGROUND = "#000000";
+        const LIGHT_BACKGROUND = "#fffbf7";
+        const DARK_BACKGROUND = "#120c08";
         const CUSTOM_THEMES_STORAGE_KEY = "t3code:themes:v1";
         const ENVIRONMENT_THEMES_STORAGE_KEY = "t3code:environment-themes:v1";
         const THEME_FOLLOW_SYSTEM_STORAGE_KEY = "t3code:theme-follow-system";
@@ -21,14 +21,14 @@
         const THEME_HALVES_STORAGE_KEY = "t3code:theme-halves:v1";
         const SPLASH_COLORS = {
           light: {
-            background: "#ffffff",
-            foreground: "#262626",
-            accent: "#4f46e5",
+            background: "#fffbf7",
+            foreground: "#26150a",
+            accent: "#fb7701",
           },
           dark: {
-            background: "#000000",
-            foreground: "#f5f5f5",
-            accent: "#818cf8",
+            background: "#120c08",
+            foreground: "#fff7f0",
+            accent: "#fb7701",
           },
         };
         // These are the runtime defaults used to complete a custom palette
@@ -52,6 +52,20 @@
         // Keep this small boot-time copy in sync with the built-in palettes so
         // the selected theme is visible before the app has mounted.
         const BUILT_IN_THEME_PALETTES = {
+          temu: {
+            light: {
+              background: "#fff9f2",
+              foreground: "#291305",
+              accent: "#fb7701",
+              chrome: "#fff4e8",
+            },
+            dark: {
+              background: "#170e08",
+              foreground: "#fff6ed",
+              accent: "#fb7701",
+              chrome: "#1d1109",
+            },
+          },
           "t3-chat": {
             light: {
               background: "oklch(0.982446 0.010114 325.653)",
@@ -133,6 +147,7 @@
           "system",
           "light",
           "dark",
+          "temu",
           "t3-chat",
           "grove",
           "ocean",
@@ -402,15 +417,15 @@
       }
 
       body {
-        background: #ffffff;
-        color: #262626;
+        background: #fffbf7;
+        color: #26150a;
         font-family:
           -apple-system, BlinkMacSystemFont, "Inter Variable", "Segoe UI", system-ui, sans-serif;
       }
 
       html.dark body {
-        background: #000000;
-        color: #f5f5f5;
+        background: #120c08;
+        color: #fff7f0;
       }
 
       #boot-shell {
@@ -681,13 +696,13 @@
       if (desktopDisplayName) document.title = desktopDisplayName;
     </script>
     <!-- vite.config.ts stamps the web build's channel into this title. -->
-    <title>T3 Code</title>
+    <title>Temu3 Code</title>
   </head>
   <body>
     <div id="root">
       <div id="boot-shell">
-        <div id="boot-shell-card" aria-label="T3 Code splash screen">
-          <img id="boot-shell-logo" src="/apple-touch-icon.png" alt="T3 Code" />
+        <div id="boot-shell-card" aria-label="Temu3 Code splash screen">
+          <img id="boot-shell-logo" src="/apple-touch-icon.png" alt="Temu3 Code" />
         </div>
       </div>
     </div>

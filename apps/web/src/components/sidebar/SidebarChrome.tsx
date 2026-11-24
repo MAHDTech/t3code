@@ -38,6 +38,7 @@ import { readIssueListPreferences } from "../issue/issueListPreferences";
 import { IssueGlyph } from "../issue/issuePresentation";
 import { isSidebarUtilityPage, useNavigateToMainApp } from "./mainAppLocation";
 import { SidebarThreadUndoNotice } from "./SidebarThreadUndoNotice";
+import { SidebarTemuFlashDeal } from "./SidebarTemuFlashDeal";
 import { SidebarProviderUpdatePill } from "./SidebarProviderUpdatePill";
 import { SidebarUpdateArchitectureWarning, SidebarUpdatePill } from "./SidebarUpdatePill";
 import { PullRequestGlyph } from "~/components/pullRequest/pullRequestIcons";
@@ -171,7 +172,7 @@ function SidebarBrand({ onBackdrop }: { onBackdrop: boolean }) {
   const gt = useGT();
   return (
     <Link
-      aria-label={gt("T3 Code home")}
+      aria-label={gt("Temu3 Code home")}
       className={cn(
         "relative z-10 ml-[var(--workspace-titlebar-content-left)] hidden h-7 w-fit min-w-0 shrink-0 items-center overflow-hidden rounded-md outline-hidden ring-ring focus-visible:ring-2 focus-visible:ring-inset md:flex",
         onBackdrop ? "text-white" : "text-foreground",
@@ -185,12 +186,20 @@ function SidebarBrand({ onBackdrop }: { onBackdrop: boolean }) {
 
 function SidebarBrandMark({ onBackdrop }: { onBackdrop: boolean }) {
   return (
-    <span className="inline-flex min-w-0 items-baseline gap-1 text-sm font-medium tracking-tight">
-      <T3Wordmark aria-label="T3" className="h-[1cap] w-auto shrink-0" />
+    <span className="inline-flex min-w-0 items-center gap-1.5 text-sm font-semibold tracking-tight">
+      <span
+        className={cn(
+          "inline-flex shrink-0 items-center rounded-md px-1.5 py-0.5 shadow-xs",
+          onBackdrop ? "bg-white/95 text-primary" : "bg-primary text-primary-foreground",
+        )}
+      >
+        {/* oxlint-disable-next-line t3code/no-untranslated-copy -- product wordmark */}
+        <T3Wordmark aria-label="Temu3" className="h-[0.95cap] w-auto shrink-0" />
+      </span>
       <span
         className={cn(
           "truncate [text-box:trim-both_cap_alphabetic] supports-[text-box:trim-both_cap_alphabetic]:py-1",
-          onBackdrop ? "text-white/70" : "text-muted-foreground",
+          onBackdrop ? "text-white/90" : "text-foreground",
         )}
       >
         {/* oxlint-disable-next-line t3code/no-untranslated-copy -- product wordmark */}
@@ -316,6 +325,7 @@ const SidebarUtilityMenu = memo(function SidebarUtilityMenu() {
 export const SidebarChromeFooter = memo(function SidebarChromeFooter() {
   return (
     <SidebarFooter>
+      <SidebarTemuFlashDeal />
       <SidebarProviderUpdatePill />
       <SidebarUpdateArchitectureWarning />
       <SidebarUtilityMenu />

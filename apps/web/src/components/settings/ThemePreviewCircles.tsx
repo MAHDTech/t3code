@@ -41,17 +41,17 @@ const STANDARD_THEME_PREVIEW_COLORS: Record<
   Readonly<Record<ThemePreviewRole, string>>
 > = {
   light: {
-    sidebar: "#fafafa",
+    sidebar: "#fff2e5",
     surface: "#ffffff",
-    accentSurface: "#f4f4f5",
-    messageSurface: "#e4e4e7",
+    accentSurface: "#ffefe0",
+    messageSurface: "#ffedd9",
     ...SHARED_STANDARD_THEME_PREVIEW_COLORS.light,
   },
   dark: {
-    sidebar: "#0f0f10",
-    surface: "#121212",
-    accentSurface: "#27272a",
-    messageSurface: "#27272a",
+    sidebar: "#160f0a",
+    surface: "#1b120c",
+    accentSurface: "#2c1d13",
+    messageSurface: "#281a11",
     ...SHARED_STANDARD_THEME_PREVIEW_COLORS.dark,
   },
 };
@@ -59,7 +59,7 @@ const STANDARD_THEME_PREVIEW_COLORS: Record<
 export const STANDARD_THEME_CARDS: ReadonlyArray<ThemeCardDefinition> = [
   {
     id: "default",
-    label: "T3 Code",
+    label: "Temu3 Code",
     previews: (["light", "dark"] as const).map((mode) => ({
       mode,
       colors: STANDARD_THEME_PREVIEW_COLORS[mode],

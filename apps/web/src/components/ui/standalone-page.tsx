@@ -23,10 +23,12 @@ export function StandalonePageHeader({
   return (
     <>
       <div className="flex items-baseline justify-between gap-3 text-muted-foreground">
-        <span className="flex items-baseline gap-1.5" role="img" aria-label="T3 Code">
-          <T3Wordmark className="h-3 w-auto shrink-0 text-foreground" aria-hidden />
+        <span className="flex items-center gap-1.5" role="img" aria-label="Temu3 Code">
+          <span className="inline-flex items-center rounded-md bg-primary px-1.5 py-1 text-primary-foreground shadow-xs">
+            <T3Wordmark className="h-3 w-auto shrink-0" aria-hidden />
+          </span>
           {/* oxlint-disable-next-line t3code/no-untranslated-copy -- product wordmark */}
-          <span className="text-lg font-medium tracking-tight">Code</span>
+          <span className="text-lg font-semibold tracking-tight text-foreground">Code</span>
         </span>
         {context ? <span className="text-sm">{context}</span> : null}
       </div>

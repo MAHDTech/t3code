@@ -14,6 +14,7 @@ import {
   IRIS_THEME,
   OCEAN_THEME,
   T3_CHAT_THEME,
+  TEMU_THEME,
   T3_CODE_LIGHT_THEME_COLORS,
   T3_CODE_DARK_THEME_COLORS,
   RESERVED_THEME_IDS,
@@ -36,7 +37,15 @@ import { applyThemeBackground } from "./themeBackground";
 import { applyThemeCss } from "./themeCss";
 import { themeServerEnvironmentThemesAtom } from "./state/server";
 
-export { EMBER_THEME, GROVE_THEME, IRIS_THEME, OCEAN_THEME, T3_CHAT_THEME, THEME_COLOR_ROLES };
+export {
+  EMBER_THEME,
+  GROVE_THEME,
+  IRIS_THEME,
+  OCEAN_THEME,
+  T3_CHAT_THEME,
+  TEMU_THEME,
+  THEME_COLOR_ROLES,
+};
 export type { ThemeAppearance, ThemeColorRole, ThemeColors, ThemeDefinition, ThemeVariants };
 
 const T3_CHAT_THEME_ID = "t3-chat" as const;
@@ -434,18 +443,15 @@ function legacyThemeMode(theme: ThemePreference): ThemeAppearance | null {
 
 export function getStandardThemeColors(appearance: ThemeAppearance): ThemeColors {
   if (appearance === "dark") {
-    return (standardDarkThemeColors ??= decodeThemeColors({
-      ...T3_CODE_DARK_THEME_COLORS,
-      canvas: "#000000",
-    }));
+    return (standardDarkThemeColors ??= decodeThemeColors(T3_CODE_DARK_THEME_COLORS));
   }
   return (standardLightThemeColors ??= decodeThemeColors(T3_CODE_LIGHT_THEME_COLORS));
 }
 
-// index.css paints the light bubble a step darker than the shared palette mobile uses.
+// index.css paints the light bubble a step warmer than the shared palette mobile uses.
 const STANDARD_WEB_PAINTED_COLORS: Record<ThemeAppearance, Partial<ThemeColors>> = {
-  light: { messageSurface: "#ebebed" },
-  dark: { canvas: "#000000", messageSurface: "#1e1e1e" },
+  light: { messageSurface: "#ffedd9" },
+  dark: { canvas: "#120c08", messageSurface: "#281a11" },
 };
 
 /** The standard theme as index.css paints it, for solves that measure the page. */
